@@ -1,1 +1,6 @@
-aka vantoff kouassi
+git clone https://github.com/stormsaberporjects/tp2.git
+
+cd tp2
+
+git pull https://github.com/stormsaberporjects/tp2.git main
+
