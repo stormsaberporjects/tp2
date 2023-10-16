@@ -4,3 +4,8 @@ cd tp2
 
 git pull https://github.com/stormsaberporjects/tp2.git main
 
+
+
+git commit -a -m anything you want
+
+git push
