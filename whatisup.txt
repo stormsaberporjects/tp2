@@ -6,6 +6,8 @@ git pull https://github.com/stormsaberporjects/tp2.git main
 
 
 
+git add .
+
 git commit -a -m anything you want
 
 git push
