@@ -1,7 +1,9 @@
 /* Kouassi Aka Vantoff & Jérôme Ouellet */
 
 /* Divers */
-
+html{
+    background-image: url("../Images/fond.jpeg");
+}
 
 /* Entête avec menu */
 
