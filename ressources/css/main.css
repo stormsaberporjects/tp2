@@ -3,6 +3,8 @@
 /* Divers */
 html{
     background-image: url("../Images/fond.jpeg");
+    background-repeat: repeat;
+    background-size: 25%;
 }
 
 /* Entête avec menu */
