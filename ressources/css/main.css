@@ -1,11 +1,10 @@
 /* Kouassi Aka Vantoff & Jérôme Ouellet */
 
 /* Divers */
-body{
+html{
     background-image: url("../Images/fond.jpeg");
     background-repeat: repeat;
     background-size: 25%;
-    width: 60%;
 }
 
 /* Entête avec menu */
