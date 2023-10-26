@@ -33,6 +33,7 @@ header img{
     border: 2px solid blueviolet;
     padding: 30px;
     display: none;
+    overflow: hidden;
 }
 
 
@@ -52,7 +53,7 @@ header {
 }
 
 #menu {
-    font-family: Courier New;
+    font-family: "Courier New";
     position: fixed;
     left: 155px;
     top: 5px;
@@ -89,6 +90,7 @@ header {
     top: 0;
     font-size: 2em;
     text-align: center;
+    
 }
 #aide-icon:hover > #section-aide{
     display: block;
