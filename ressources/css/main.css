@@ -4,42 +4,22 @@
 html {
     background-image: url("../Images/fond.jpeg");
     background-repeat: repeat;
-    background-size: 25% auto;
-    background-attachment: fixed;
+    background-size: 25%;
 }
 
 /* Entête avec menu */
 
 header {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     background-color: khaki;
     color: #fff;
-    padding: 10px 20px;
 }
-
-
-#menu ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+header img{
+    float: left;
+    width: 150px;
 }
-
-#menu li {
-    margin-right: 20px;
-}
-
-#menu a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#aide-icon {
-
-    cursor: pointer;
-}
-
 
 #section-aide {
     position: fixed;
@@ -52,9 +32,10 @@ header {
     opacity: 0.95;
     border: 2px solid blueviolet;
     padding: 30px;
-    overflow: hidden;
     display: none;
 }
+
+
 
 header {
     position: fixed;
@@ -72,7 +53,7 @@ header {
 
 #menu {
     font-family: Courier New;
-    position: absolute;
+    position: fixed;
     left: 155px;
     top: 5px;
     width: 65%;
@@ -82,6 +63,7 @@ header {
     list-style: none;
     padding: 0;
     display: flex;
+    position: fixed;
 }
 
 #menu li {
@@ -98,19 +80,24 @@ header {
     font-size: 2em;
 }
 
-#menu a:hover,
-#aide-icon:hover {
+#aide-icon {
+    float: right;
+    padding: 5px;
+    margin: 30px;
+    width: 50px;
+    color: black;
+    top: 0;
+    font-size: 2em;
+    text-align: center;
+}
+#aide-icon:hover > #section-aide{
+    display: block;
+}
+
+#menu a:hover, #aide-icon:hover {
     border: 2px solid brown;
     box-shadow: 5px 5px 30px brown;
 }
-
-
-#aide-icon {
-    float: right;
-    margin: 30px;
-    width: 50px;
-}
-
 
 section {
     margin-top: 100px;
@@ -135,7 +122,7 @@ section {
     border: 2px solid blueviolet;
     color: brown;
     position: sticky;
-    top: 100px;
+    top:121.5px;
 }
 
 #contenu-principal h1+p {
@@ -167,43 +154,6 @@ aside {
     color: white;
     border: 3px solid gray;
 }
-
-#contenu-principal {
-    margin-top: 130px;
-    padding: 50px;
-}
-
-#contenu-principal p {
-    font-size: 22px;
-}
-
-#contenu-principal h1 {
-    margin-left: 320px;
-    background-color: khaki;
-    border: 2px solid blueviolet;
-    color: brown;
-    position: sticky;
-    top: 100px;
-}
-
-#contenu-principal h1+p {
-    
-    float: left;
-    font-size: 44px;
-    color: brown;
-    margin-right: 5px;
-}
-
-#contenu-principal img {
-    float: left;
-    height: 100px;
-    margin: 15px;
-    border: 1px solid black;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: brown;
-}
-
 
 aside {
     float: left;
